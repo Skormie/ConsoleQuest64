@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: ed94b0723e5f5bf4d8f7ab93ab748fdb
+guid: bbd25974567b427458beb2566d3a15c9
 TextureImporter:
   fileIDToRecycleName:
-    21300000: hero_jump_0
-    21300002: hero_jump_1
-    21300004: hero_jump_2
-    21300006: hero_jump_3
+    21300000: skeletonboss_attack_0
+    21300002: skeletonboss_attack_1
+    21300004: skeletonboss_attack_2
+    21300006: skeletonboss_attack_3
   externalObjects: {}
   serializedVersion: 6
   mipmaps:
@@ -47,8 +47,8 @@ TextureImporter:
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -88,81 +88,81 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hero_jump_0
+      name: skeletonboss_attack_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 10
         y: 0
-        width: 8
-        height: 8
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.55, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0890d88a78abfa4e8e83d687ee60991
+      spriteID: 1bab78b086abb8844b0d0ca98804f061
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hero_jump_1
+      name: skeletonboss_attack_1
       rect:
         serializedVersion: 2
-        x: 11
+        x: 37
         y: 0
-        width: 9
-        height: 10
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 23
+        height: 20
+      alignment: 9
+      pivot: {x: 0.6086957, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64f965df399a1cf4e8c7cb9b2d1301bc
+      spriteID: 696103e54bb6c48418bec0291b695c1f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hero_jump_2
+      name: skeletonboss_attack_2
       rect:
         serializedVersion: 2
-        x: 21
-        y: 1
-        width: 8
-        height: 8
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 61
+        y: 0
+        width: 29
+        height: 20
+      alignment: 9
+      pivot: {x: 0.6896552, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b7e6bb629a97a44082509199d7eeef5
+      spriteID: 9a3526722893755458477bca41e78d0b
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hero_jump_3
+      name: skeletonboss_attack_3
       rect:
         serializedVersion: 2
-        x: 30
+        x: 91
         y: 0
-        width: 8
-        height: 7
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 29
+        height: 20
+      alignment: 9
+      pivot: {x: 0.6896552, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07ec24245a6e16d4e9f25e87d21c42d2
+      spriteID: 95e357aa64ce10349b9c9fff316a875c
       vertices: []
       indices: 
       edges: []
@@ -170,7 +170,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 039ff7f3e363ab9468d17b5d9d99cc28
+    spriteID: 68520e027601daa4e88369e88728f645
     vertices: []
     indices: 
     edges: []

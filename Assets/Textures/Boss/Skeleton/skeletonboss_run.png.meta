@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: ed94b0723e5f5bf4d8f7ab93ab748fdb
+guid: a78ec1bbce58d634496062c8803885d0
 TextureImporter:
   fileIDToRecycleName:
-    21300000: hero_jump_0
-    21300002: hero_jump_1
-    21300004: hero_jump_2
-    21300006: hero_jump_3
+    21300000: skeletonboss_run_0
+    21300002: skeletonboss_run_1
+    21300004: skeletonboss_run_2
+    21300006: skeletonboss_run_3
   externalObjects: {}
   serializedVersion: 6
   mipmaps:
@@ -88,13 +88,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hero_jump_0
+      name: skeletonboss_run_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 8
-        height: 8
+        width: 20
+        height: 20
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -102,67 +102,67 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0890d88a78abfa4e8e83d687ee60991
+      spriteID: e90081384fc915b43879078fdb6b639f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hero_jump_1
+      name: skeletonboss_run_1
       rect:
         serializedVersion: 2
-        x: 11
+        x: 20
         y: 0
-        width: 9
-        height: 10
-      alignment: 7
+        width: 20
+        height: 19
+      alignment: 9
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64f965df399a1cf4e8c7cb9b2d1301bc
+      spriteID: 44f71a445f14dbd4a9c8242b7716402d
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hero_jump_2
+      name: skeletonboss_run_2
       rect:
         serializedVersion: 2
-        x: 21
-        y: 1
-        width: 8
-        height: 8
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6b7e6bb629a97a44082509199d7eeef5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hero_jump_3
-      rect:
-        serializedVersion: 2
-        x: 30
+        x: 40
         y: 0
-        width: 8
-        height: 7
-      alignment: 7
+        width: 20
+        height: 19
+      alignment: 9
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07ec24245a6e16d4e9f25e87d21c42d2
+      spriteID: 29bfd18509d486349b41dede40c503da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeletonboss_run_3
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 20
+        height: 19
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865a70b6eed81954ebb59ad4505d949a
       vertices: []
       indices: 
       edges: []
@@ -170,7 +170,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 039ff7f3e363ab9468d17b5d9d99cc28
+    spriteID: e7b999b78b366374ca7da0c3f84992ea
     vertices: []
     indices: 
     edges: []

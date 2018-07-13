@@ -49,7 +49,7 @@ namespace UnityStandardAssets._2D
         }
 
 
-        public void Move(float move, bool crouch, bool jump)
+        public void Move(float move, bool crouch, bool jump, bool attack)
         {
             // If crouching, check to see if the character can stand up
             if (!crouch && m_Anim.GetBool("Crouch"))
@@ -89,6 +89,12 @@ namespace UnityStandardAssets._2D
                     Flip();
                 }
             }
+
+            if(attack)
+            {
+                m_Anim.SetTrigger("Attack");
+            }
+
             // If the player should jump...
             if (m_Grounded && jump && m_Anim.GetBool("Ground"))
             {

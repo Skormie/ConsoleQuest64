@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: ed94b0723e5f5bf4d8f7ab93ab748fdb
+guid: fec97b53c69721742a590b1c8528b822
 TextureImporter:
   fileIDToRecycleName:
-    21300000: hero_jump_0
-    21300002: hero_jump_1
-    21300004: hero_jump_2
-    21300006: hero_jump_3
+    21300000: skeletonboss_death_0
+    21300002: skeletonboss_death_1
+    21300004: skeletonboss_death_2
+    21300006: skeletonboss_death_3
   externalObjects: {}
   serializedVersion: 6
   mipmaps:
@@ -47,8 +47,8 @@ TextureImporter:
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -88,13 +88,33 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hero_jump_0
+      name: skeletonboss_death_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 8
-        height: 8
+        width: 20
+        height: 20
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d4358bec20281042a89bd6ffeb0c129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeletonboss_death_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 0
+        width: 19
+        height: 20
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -102,18 +122,38 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0890d88a78abfa4e8e83d687ee60991
+      spriteID: b8b8f49b450ac7f48847baee7c6cb9fc
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hero_jump_1
+      name: skeletonboss_death_2
       rect:
         serializedVersion: 2
-        x: 11
+        x: 41
         y: 0
-        width: 9
+        width: 19
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a0d3a6a7165384ea44c2a38d4590ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: skeletonboss_death_3
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 0
+        width: 19
         height: 10
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -122,47 +162,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 64f965df399a1cf4e8c7cb9b2d1301bc
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hero_jump_2
-      rect:
-        serializedVersion: 2
-        x: 21
-        y: 1
-        width: 8
-        height: 8
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6b7e6bb629a97a44082509199d7eeef5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hero_jump_3
-      rect:
-        serializedVersion: 2
-        x: 30
-        y: 0
-        width: 8
-        height: 7
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 07ec24245a6e16d4e9f25e87d21c42d2
+      spriteID: 667bc143630e2024f9cfe3605ed5af62
       vertices: []
       indices: 
       edges: []
@@ -170,7 +170,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 039ff7f3e363ab9468d17b5d9d99cc28
+    spriteID: 4f2beba272ab54640b4a4ac533b6c8b8
     vertices: []
     indices: 
     edges: []

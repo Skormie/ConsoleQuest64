@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: ed94b0723e5f5bf4d8f7ab93ab748fdb
+guid: 53c1ac4cf9f631442a9732ea74595b48
 TextureImporter:
   fileIDToRecycleName:
-    21300000: hero_jump_0
-    21300002: hero_jump_1
-    21300004: hero_jump_2
-    21300006: hero_jump_3
+    21300000: ghostboss_attack_0
+    21300002: ghostboss_attack_1
+    21300004: ghostboss_attack_2
+    21300006: ghostboss_attack_3
   externalObjects: {}
   serializedVersion: 6
   mipmaps:
@@ -88,81 +88,81 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hero_jump_0
+      name: ghostboss_attack_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 8
-        height: 8
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 1
+        y: 1
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0890d88a78abfa4e8e83d687ee60991
+      spriteID: 99f4bc6f0d383b64eb93920ca32863ee
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hero_jump_1
-      rect:
-        serializedVersion: 2
-        x: 11
-        y: 0
-        width: 9
-        height: 10
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 64f965df399a1cf4e8c7cb9b2d1301bc
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hero_jump_2
+      name: ghostboss_attack_1
       rect:
         serializedVersion: 2
         x: 21
         y: 1
-        width: 8
-        height: 8
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b7e6bb629a97a44082509199d7eeef5
+      spriteID: 8cc3a5c8964f80d44b1db56be34ec3a7
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hero_jump_3
+      name: ghostboss_attack_2
       rect:
         serializedVersion: 2
-        x: 30
-        y: 0
-        width: 8
-        height: 7
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+        x: 41
+        y: 1
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07ec24245a6e16d4e9f25e87d21c42d2
+      spriteID: c9574074e124bbf41b8005279f7221ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ghostboss_attack_3
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 1
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3206188a504d0de44a27b43222a703c1
       vertices: []
       indices: 
       edges: []
@@ -170,7 +170,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 039ff7f3e363ab9468d17b5d9d99cc28
+    spriteID: 1ec04e9a37d41b04dbae4166b689813b
     vertices: []
     indices: 
     edges: []
